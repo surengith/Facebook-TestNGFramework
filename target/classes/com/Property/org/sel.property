@@ -1,0 +1,13 @@
+browser = chrome
+url = https://selectorshub.com/
+email = Abcdef@gmail.com
+password = 123456
+company = SelectorHub
+mobilenumber = 123987456
+
+urltest = https://www.facebook.com/
+emailtest = abc@gamil.com
+passowrdtest = 123456
+
+
+

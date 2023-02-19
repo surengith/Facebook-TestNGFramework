@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestChrome(failed)">
+    <parameter name="password" value="123456"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <parameter name="email" value="abc@gamil.com"/>
+    <groups>
+      <run>
+        <include name="facebook"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.Runner.org.TestngTest">
+        <methods>
+          <include name="launchUrl" invocation-numbers="0"/>
+          <include name="testOne" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Runner.org.TestngTest -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
